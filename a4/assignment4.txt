@@ -1,0 +1,226 @@
+CREATE DATABASE
+psql (9.3.5, server 12.4)
+WARNING: psql major version 9.3, server major version 12.4.
+         Some psql features might not work.
+You are now connected to database "assignment4" as user "postgres".
+psql:Desktop/b461/assignment4.sql:6: NOTICE:  table "person" does not exist, skipping
+DROP TABLE
+CREATE TABLE
+INSERT 0 30
+psql:Desktop/b461/assignment4.sql:44: NOTICE:  table "knows" does not exist, skipping
+DROP TABLE
+CREATE TABLE
+INSERT 0 100
+psql:Desktop/b461/assignment4.sql:153: NOTICE:  table "company" does not exist, skipping
+DROP TABLE
+CREATE TABLE
+INSERT 0 25
+psql:Desktop/b461/assignment4.sql:184: NOTICE:  table "worksfor" does not exist, skipping
+DROP TABLE
+CREATE TABLE
+INSERT 0 30
+psql:Desktop/b461/assignment4.sql:222: NOTICE:  table "jobskill" does not exist, skipping
+DROP TABLE
+CREATE TABLE
+INSERT 0 5
+psql:Desktop/b461/assignment4.sql:232: NOTICE:  table "personskill" does not exist, skipping
+DROP TABLE
+CREATE TABLE
+INSERT 0 60
+1
+ pid | name  
+-----+-------
+  12 | Deepa
+  17 | Lisa
+  18 | Ryan
+  24 | Aya
+(4 rows)
+
+2
+    skill    
+-------------
+ Mathematics
+ Networks
+(2 rows)
+
+3
+   cname   
+-----------
+ Apple
+ Google
+ Hulu
+ IBM
+ Intel
+ Microsoft
+ Netflix
+(7 rows)
+
+4
+ pid | name 
+-----+------
+   8 | Jean
+  16 | Anna
+  18 | Ryan
+  21 | Eric
+  25 | Arif
+  30 | Aya
+(6 rows)
+
+5
+ pid | name 
+-----+------
+   1 | Nick
+(1 row)
+
+6
+7
+ cname  
+--------
+ Amazon
+ Hulu
+ Yahoo
+ Zoom
+(4 rows)
+
+8
+    skill    |    skill    
+-------------+-------------
+ Databases   | Databases
+ AI          | AI
+ Mathematics | Mathematics
+ Networks    | Networks
+ Programming | Programming
+(5 rows)
+
+psql (9.3.5, server 12.4)
+WARNING: psql major version 9.3, server major version 12.4.
+         Some psql features might not work.
+You are now connected to database "postgres" as user "postgres".
+DROP DATABASE
+postgres=# postgres=# \i Desktop/b461/assignment4.sql
+CREATE DATABASE
+psql (9.3.5, server 12.4)
+WARNING: psql major version 9.3, server major version 12.4.
+         Some psql features might not work.
+You are now connected to database "assignment4" as user "postgres".
+psql:Desktop/b461/assignment4.sql:6: NOTICE:  table "person" does not exist, skipping
+DROP TABLE
+CREATE TABLE
+INSERT 0 30
+psql:Desktop/b461/assignment4.sql:44: NOTICE:  table "knows" does not exist, skipping
+DROP TABLE
+CREATE TABLE
+INSERT 0 100
+psql:Desktop/b461/assignment4.sql:153: NOTICE:  table "company" does not exist, skipping
+DROP TABLE
+CREATE TABLE
+INSERT 0 25
+psql:Desktop/b461/assignment4.sql:184: NOTICE:  table "worksfor" does not exist, skipping
+DROP TABLE
+CREATE TABLE
+INSERT 0 30
+psql:Desktop/b461/assignment4.sql:222: NOTICE:  table "jobskill" does not exist, skipping
+DROP TABLE
+CREATE TABLE
+INSERT 0 5
+psql:Desktop/b461/assignment4.sql:232: NOTICE:  table "personskill" does not exist, skipping
+DROP TABLE
+CREATE TABLE
+INSERT 0 60
+1
+ pid | name  
+-----+-------
+  12 | Deepa
+  17 | Lisa
+  18 | Ryan
+  24 | Aya
+(4 rows)
+
+2
+    skill    
+-------------
+ Mathematics
+ Networks
+(2 rows)
+
+3
+   cname   
+-----------
+ Apple
+ Google
+ Hulu
+ IBM
+ Intel
+ Microsoft
+ Netflix
+(7 rows)
+
+4
+ pid | name 
+-----+------
+   8 | Jean
+  16 | Anna
+  18 | Ryan
+  21 | Eric
+  25 | Arif
+  30 | Aya
+(6 rows)
+
+5
+ pid | name 
+-----+------
+   1 | Nick
+(1 row)
+
+6
+ pid |   name   
+-----+----------
+   1 | Nick
+   2 | Deepa
+   4 | Ryan
+   5 | Hasan
+   6 | Arif
+   7 | Ryan
+   8 | Jean
+   9 | Aya
+  10 | Lisa
+  11 | Arif
+  14 | Ryan
+  15 | Nick
+  16 | Anna
+  17 | Lisa
+  18 | Ryan
+  20 | Danielle
+  22 | Anna
+  23 | Chris
+  25 | Arif
+  26 | Anna
+  27 | Latha
+  29 | Linda
+  30 | Aya
+(23 rows)
+
+7
+ cname  
+--------
+ Amazon
+ Hulu
+ Yahoo
+ Zoom
+(4 rows)
+
+8
+    skill    |    skill    
+-------------+-------------
+ Databases   | Databases
+ AI          | AI
+ Mathematics | Mathematics
+ Networks    | Networks
+ Programming | Programming
+(5 rows)
+
+psql (9.3.5, server 12.4)
+WARNING: psql major version 9.3, server major version 12.4.
+         Some psql features might not work.
+You are now connected to database "postgres" as user "postgres".
+DROP DATABASE
